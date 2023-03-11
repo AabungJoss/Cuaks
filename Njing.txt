@@ -1,0 +1,17 @@
+proxies:
+  - name: us.goserver.pw-tls-gamingssh-bhuij
+    server: vm.us.goserver.pw
+    port: 443
+    type: vmess
+    uuid: 6739b474-6f76-4d33-894b-d3b1e8769291
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us.goserver.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/tls
+      headers:
+        Host: us.goserver.pw
+    udp: true
